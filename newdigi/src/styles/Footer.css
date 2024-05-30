@@ -1,0 +1,81 @@
+.footer {
+  width: 100%;
+  height: auto; /* Adjust height to fit content */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa; /* Optional: Add a background color */
+  padding-bottom: 20px; /* Space at the bottom of the footer */
+  position: relative; /* Add position relative for absolute positioning */
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Ensure all text is centered */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.logo {
+  width: 164px;
+  height: 47px;
+  margin-bottom: 20px; /* Spacing between elements */
+  margin-top: 20px; /* Adjust top margin */
+}
+
+.links {
+  margin: 10px 0; /* Vertical spacing */
+  color: #090c08;
+}
+
+.links a {
+  text-decoration: none; /* Remove underline from links */
+  color: #090c08;
+  margin: 0 10px; /* Horizontal spacing */
+}
+
+.links a:hover {
+  color: #007bff; /* Optional: Change color on hover */
+}
+
+span {
+  max-width: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333cc;
+  margin-top: 20px; /* Vertical spacing */
+  padding: 0 20px; /* Add padding for better spacing */
+  text-align: center;
+  margin: 0px 40px;
+}
+
+.blue-left
+ {
+  position: absolute;
+  width: 827px; /* Adjust width to cover entire footer */
+  height: 62px; /* Height as specified */
+  bottom: 0;
+  background: linear-gradient(90deg, #0099f7 0%, #12f1e4 100%);
+  border-radius: 0px 100px 0px 0px;
+}
+.blue-right {
+  position: absolute;
+  width: 827px; /* Adjust width to cover entire footer */
+  height: 52px; /* Height as specified */
+  bottom: 0;
+  background: linear-gradient(90deg, #0099f7 0%, #12f1e4 100%);
+  border-radius:0px, 100px, 0px, 10px
+}
+
+.blue-left {
+  left: 0;
+}
+
+.blue-right {
+  right: 0;
+}

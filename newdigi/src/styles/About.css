@@ -1,0 +1,194 @@
+.aboutfront {
+  width: 100%;
+}
+.mainpic {
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  height: 100%;
+}
+.aboufirstt img {
+  width: 100%; /* Make the image take up the full width of the container */
+  height: auto;
+  object-fit: cover;
+}
+.abtmain {
+  /* background-image: url('../assets/main.png');  */
+  /* width: 355px; */
+  /* height: 240px; */
+  top: 224px;
+  left: 50px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: left;
+  margin-left: 200px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.headin1abt h2 {
+  font-family: Poppins;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 120px;
+  letter-spacing: -1.2799999713897705px;
+  text-align: left;
+  color: #090c08;
+}
+.heading2abt h2 {
+  color: #2c3590;
+  font-family: Poppins;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 120px;
+  letter-spacing: -1.2799999713897705px;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 120px;
+  letter-spacing: -1.2799999713897705px;
+  text-align: left;
+}
+.about_content {
+  width: 1440px;
+  height: 745px;
+  top: 789px;
+  padding: 74px 50px 73px 50px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.abtleft {
+  flex: 1;
+  padding: 0; /* Remove padding for full-width image */
+}
+
+.abtleft img {
+  width: 100%; /* Make the image take up the full width of the container */
+  height: 100%;
+  border-radius: 20px 0 0 0;
+  margin-left: -200px;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: -200px;
+}
+
+.right h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem; /* Adjusted font size */
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -1.28px;
+  color: #090c08;
+  margin-bottom: 20px;
+}
+
+.right p {
+  font-family: "Kaisei Opti", serif;
+  font-size: 1.25rem; /* Adjusted font size */
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.1px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about_content {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .right h1 {
+    font-size: 2rem;
+  }
+
+  .right p {
+    font-size: 1rem;
+  }
+}
+
+.card_section {
+  width: 100%;
+  max-width: 1200px; /* Adjusted max-width */
+  height: auto;
+  margin: 20px auto; /* Adjusted margin */
+  padding: 0; /* Remove padding for full-width image */
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; /* Optional: add border radius for rounded corners */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.card_section img {
+  width: 100%; /* Make the image take up the full width of the container */
+  height: auto;
+  border-radius: 8px; /* Optional: add border radius for rounded corners */
+}
+
+.tempcars {
+  background-color: #3d9dd61a;
+  width: 100%;
+  max-width: 1200px; /* Adjusted max-width */
+  height: auto; /* Adjust based on content */
+  margin: 20px auto; /* Adjusted margin */
+  padding: 0; /* Remove padding for full-width image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; /* Optional: add border radius for a more polished look */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.tempcars img {
+  width: 100%; /* Make the image take up the full width of the container */
+  height: auto;
+  border-radius: 8px; /* Optional: add border radius for a more polished look */
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+input:focus {
+  outline: 2px solid white;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.abtcards {
+  width: 100%;
+  display: flex;
+  flex-direction: ;
+  justify-content: center;
+}
